@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-screen-wrapper {
+  width: 1200px;
+  height: 600px;
+  background: gray;
+  margin: 80px auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+  
 }
 
-.App-link {
-  color: #61dafb;
+.side-panel {
+  width: 300px;
+  height: 600px;
+  background: lightgray;
+  padding: 10px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-panel {
+
+}
+
+.right-panel {
+
+}
+
+.main-panel {
+  width: 600px;
+  height: 600px;
+  background: whitesmoke;
+  padding: 10px;
+}
+
+/* Left pannel */
+
+.cargo-bay {
+  width: 280px;
+  height: 400px;
+  background: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cargo-crate {
+  width: 50px;
+  height: 50px;
+  background: blanchedalmond;
+  margin: 4px;
 }
