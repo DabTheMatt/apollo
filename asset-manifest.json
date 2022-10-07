@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/apollo/static/css/main.02e16459.css",
-    "main.js": "/apollo/static/js/main.f0f19af9.js",
+    "main.css": "/apollo/static/css/main.4f61fb06.css",
+    "main.js": "/apollo/static/js/main.51190751.js",
+    "static/media/small-p.png": "/apollo/static/media/small-p.43c9e1a5852a06ea5411.png",
+    "static/media/small-frigate.png": "/apollo/static/media/small-frigate.c05633e6e6746b794fc8.png",
+    "static/media/fuel.png": "/apollo/static/media/fuel.c59149e8e839a1ea2832.png",
     "static/media/logo.svg": "/apollo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/apollo/index.html",
-    "main.02e16459.css.map": "/apollo/static/css/main.02e16459.css.map",
-    "main.f0f19af9.js.map": "/apollo/static/js/main.f0f19af9.js.map"
+    "main.4f61fb06.css.map": "/apollo/static/css/main.4f61fb06.css.map",
+    "main.51190751.js.map": "/apollo/static/js/main.51190751.js.map"
   },
   "entrypoints": [
-    "static/css/main.02e16459.css",
-    "static/js/main.f0f19af9.js"
+    "static/css/main.4f61fb06.css",
+    "static/js/main.51190751.js"
   ]
 }
