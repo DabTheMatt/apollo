@@ -19,10 +19,10 @@ const RightPanel = (props) => {
                 <div key={source.id}>
                   <p>{source.name} : {source.quantity} ( price: 20 Cr/crate)</p>
                   <div className="cargo-crate-wrapper">
-                  {Array.from(Array(source.quantity).keys()).map((crate) => {
+                  {Array.from(Array(source.quantity).keys()).map((crate, index) => {
                     return (
                       <div 
-                        onClick={(e)=>props.handleBuy(e,   source.id, source.name)}
+                        onClick={(e)=>props.handleBuy(e, source.id, source.name, index)}
                         className={`cargo-crate ${source.name}`}>{source.name.charAt(0)}
                       </div>
                     )
