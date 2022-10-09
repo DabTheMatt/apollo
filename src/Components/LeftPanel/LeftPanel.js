@@ -5,8 +5,8 @@ const LeftPanel = (props) => {
 
   console.log('cargo', props.cargo)
   return (
-    <div className="l">
-      <h1>{props.shipName}</h1>
+    <div className="left-panel">
+      <h1 className="panel-title">{props.shipName}</h1>
       <div className="left-panel-ship-wrapper"><img className="left-panel-ship" src={ship}></img></div>
       <h3 className="font-light">{props.type}</h3>
       <h3 className="font-light">docked in: <span className="font-bold">{props.dockedOn}</span> starport</h3>

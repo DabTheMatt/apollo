@@ -59,7 +59,7 @@
 }
 
 .left-panel {
-  
+  padding: 10px;
 }
 
 .right-panel {
@@ -169,6 +169,10 @@
   text-align: center;
   box-shadow: 2px 2px 0px 0px black;
   cursor: copy;
+}
+
+.panel-title {
+  font-weight: 200;
 }
 
 .ship-stats {
